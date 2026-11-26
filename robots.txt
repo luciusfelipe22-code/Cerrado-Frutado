@@ -1,0 +1,11 @@
+# robots.txt
+User-agent: *
+Disallow: /rascunhos/
+Disallow: /busca
+Allow: /rascunhos/publico.html
+ 
+User-agent: GPTBot
+Disallow: /
+ 
+
+Sitemap: https://luciusfelipe22-code.github.io/Cerrado-Frutado/sitemap.xml
