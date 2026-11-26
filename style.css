@@ -1,0 +1,186 @@
+header{
+   text-align: center;
+   background: url("flor.jpg");
+   font-family: 'chewy';
+}
+
+body {
+   font-family: 'chewy';
+   color:#16753A;
+   background: #FAF390;
+  }
+
+.conteudo {
+   background: #EFE56B;
+   padding: 30px;
+    margin-right: 270px;
+  }
+
+
+h1 {
+   text-align: center;
+   font-size: 60px;
+
+  }
+
+#frutas{
+margin-left: 40px;
+display: inline-block;
+background-color: #DAD370;
+border-radius: 10px;
+}
+i {
+   color: #FF3D3D; /*red*/
+  }
+aside {
+   background-color: #DAD370;
+border-radius: 10px;
+   display:inline-block;
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+}
+
+nav {
+   position: absolute
+   top: 90px;
+   right: 50px;
+}
+
+nav li {
+   display: inline;
+   margin: 0 0 0 15px;
+}
+
+nav li ul {
+   position: absolute;
+   top: 30px;
+   left: 230px;
+   padding: 0px 0px;
+   background-color: lightgreen;
+   display: none; 
+}
+
+nav a {
+   text-transform: uppercase;
+   color: #16753A;
+   font-weight: bold;
+   font-style: 22px;
+   text-decoration: none;
+}
+
+
+footer {
+   text-align: center;
+   background: url("flor.jpg");
+   padding: 40px;
+}
+
+.copyright {
+   color: #FFFFFF;
+   font-size: 60px;
+   margin: 20px 0 0 0;
+}
+/*secçãofale concosco !!!!!!*/
+
+
+form {
+    font-family: 'chewy';
+   margin: 40px 0;
+}
+
+form label, form legend {
+   display: block;
+   text-align: left;
+   font-size: 20px;
+   margin: 0 0 10px;
+}
+
+.input-padrao {
+   display: block;
+   margin: 0 0 20px;
+   padding: 10px 20px;
+   width: 50%
+}
+
+.checkbox {
+   margin: 20px 0;
+}
+
+.enviar {
+   width: 20%;
+   padding: 15px 0;
+   background: orange;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   border: none;
+   border-radius: 5px;
+   transition: 1s all;
+   cursor: pointer;
+}
+
+.enviar:hover {
+   background: darkorange;
+   transform: scale(1.2);
+}
+
+table {
+   margin: 20px 0 40px;
+}
+
+thead {
+   background: deeppink;
+   color: white;
+   font-weight: bold;
+}
+
+td, th {
+   border: 1px solid #000000;
+   padding: 8px 10px;
+}
+
+form .conjunto {
+   font-size: 20px;
+   margin: 10px 0;
+}
+
+
+@media screen and (max-width: 480px) {
+header{
+   width: fit-content;
+}
+
+body{
+ width: fit-content
+}
+
+   main, .caixa,.principal, .materias_inicio {
+      width: fit-content;
+   }
+   h1 {
+      text-align: center;
+      font-size: 80px;
+   }
+
+.titulo-principal{
+   font-size: 90px;
+   text-align: center;
+}
+
+   nav {
+      position: static;
+   }
+
+   .list_materi, .materias_unidas{
+      width: 100%;
+   }
+
+   nav{
+font-size: 70px;
+
+   }
+}
+
