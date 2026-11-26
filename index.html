@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+<!--<meta name="viewport" content="width=device-width">-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Cerrado frutado</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+	</head>
+	
+	<body>
+	
+	<header>
+	<h1>Cerrado Frutado</h1>
+  <nav aria-label="Principal">
+      <ul>
+        <li><a href="#" aria-current="page">Frutas</a></li>
+        <li><a href="#dicas">Dicas</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+</header>
+<aside id="dicas" aria-label="Dicas de cultivo">
+      <h2>dicas de cultivo</h2>
+      <ul>
+        <li>cultivo em local com o tamanho adequado a planta</li>
+        <li>sempre regue na frequencia certa de cada especie</li>
+         <li>tenha paciencia</li>
+      </ul>
+    </aside>
+  <main id="conteudo">
+    <section id="frutas" aria-labelledby="f-frutas">
+      <h2 id="f-frutas">Frutas em destaque</h2>
+      <article>
+        <h3>Cereja do cerrado</h3>
+        <figure>
+          <img src="cereja.png" alt=" ramo de cereja-do-cerrado em fundo branco" width="320" height="200">
+          <figcaption>Foto: Gustavo Giacon, 26 de outubro de 2017</figcaption>
+        </figure>
+        <p>planta arbustiva <strong>Nativa do Cerrado brasileiro</strong>,frutos grandes e compridos</p>
+        <p>Atualizado em <time datetime="2026-10-20">25 de outubro de 2026</time>.</p>
+      </article>
+      <article>
+        <h3>Jenipapo</h3>
+        <figure>
+          <img src="Jenipapo.png" alt="Jenipapo na sua arvore originaria" width="320" height="200">
+          <figcaption>Foto: shutterstock,24 de Outubro de 2021 </figcaption>
+        </figure>
+        <p>árvore <strong>Nativa da Floresta Amazonica</strong>, mas presente no cerrado, frutos grandes e redondo</p>
+        <p>Atualizado em <time datetime="2026-10-20">25 de outubro de 2026</time>.</p>
+      </article>
+       <article>
+        <h3>Jenipapo</h3>
+        <figure>
+          <img src="Cajuzinho-do-Cerrado.png" alt="grupo de cajuzinhos" width="320" height="200">
+          <figcaption>Foto:origem desconhecida,upload em Junho de 2019</figcaption>
+        </figure>
+        <p>planta arbustiva <strong>Nativa do Cerrado Brasileiro</strong>pequeno pseudofruto claviforme</p>
+        <p>Atualizado em <time datetime="2026-10-20">25 de outubro de 2026</time>.</p>
+      </article>
+    </section>
+ 
+   
+  </main>
+   
+  <table>
+  <caption>frutas classifadas em tabela</caption>
+  <thead>
+    <tr>
+      <th scope="col">Fruta</th>
+      <th scope="col">tamanho</th>
+      <th scope="col">origem</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row">Cereja-do-Cerrado</th><td>2m</td><td>arbustivo</td></tr>
+    <tr><th scope="row">Jenipapo</th><td>15m</td><td>arvore</td></tr>
+  <tr><th scope="row">Cajuzingo-do-Cerrado</th><td>80cm</td><td>arbustivo</td></tr>
+  </tbody>
+</table>
+<form action="/inscricao" method="post">
+  <fieldset>
+    <legend>Seus dados</legend>
+    <label for="nome">Nome</label>
+    <input id="nome" name="nome" type="text" autocomplete="name" required>
+    <label>E-mail <input name="email" type="email" required></label>
+    <label>Data de nascimento <input name="data" type="date"></label>
+  </fieldset>
+  <button type="submit">Inscrever</button>
+</form>
+
+
+		 <footer id="contato">
+    <address>Contato: <a href="mailto:luciusfelipe22@gmail.com">luciusfelipe22@gmail.com</a></address>
+    <p><small>&copy; 2026 · Projeto da disciplina LSW</small></p>
+</footer>
+	</body>
+</html>
